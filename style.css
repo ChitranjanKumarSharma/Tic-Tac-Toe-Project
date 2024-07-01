@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--sky-blue);
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-game{
+    width: 20vmin;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 3px;
+    margin: 10px;
+    padding: 8px;
+    box-shadow: 5px 5px 8px var(--light-navy-blue);
+}
+
+.msg-container{
+    width: auto;
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.heading{
+    font-size: 5rem;
+    color: var(--text-color);
+    text-shadow: 3px 3px 3px var(--light-navy-blue);}
+
+.game{
+    height:55vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vmin;
+    margin-top: 30px;
+    
+    
+}
+
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    box-shadow:6px 5px 5px var(--light-navy-blue);
+    font-size: 8vmin;
+    color: var(--background-color);
+
+}
+
+#reset-button{
+    width: 12vmin;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 8px;
+    box-shadow: 5px 5px 8px var(--light-navy-blue);
+}
+
+
+:root{
+    --background-color:#FDFFE2;
+    --text-color:#1A2130;
+    --light-navy-blue:#5A72A0;
+    --sky-blue:#83B4FF;
+}
